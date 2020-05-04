@@ -62,4 +62,10 @@ h5,
 h6 {
     line-height: 1.2em;
 }
+.flex{
+    display: flex;
+}
+.align-items-center{
+    align-items: center;
+}
 
