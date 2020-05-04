@@ -13,7 +13,6 @@ $text-color: #828bb2;
 $white: #fff;
 $offwhite: #f9f9ff;
 $black: #000;
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800|Yeseva+One&display=swap');
 
 $font1:  'Yeseva One', cursive;
 $font2:  'Open Sans', sans-serif;

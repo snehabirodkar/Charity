@@ -1,7 +1,7 @@
 .boxed-btn3 {
     color: #222222;
     display: inline-block;
-    padding: 13px 44px;
+    padding: 10px 18px;
     font-size: 16px;
     font-weight: 600;
     border: 0;
@@ -12,48 +12,61 @@
     background: #fff;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background: #3CC78F;
         color: #fff;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &__large-width{
-        width: 220px;
+
+    @mixin largeScreen {
+        padding: 13px 44px;
+    }
+
+    @mixin extraLargeScreen {
+        padding: 13px 44px;
     }
 }
+
 .button-area {
     &__border-top-generic {
         padding: 70px 15px;
         border-top: 1px dotted #eee;
     }
+
     background: $white;
 }
+
 .boxed-btn4 {
-	color: #fff;
-	display: inline-block;
-	padding: 13px 44px;
-	font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 44px;
+    font-size: 16px;
     font-weight: 600;
     border: 0;
     @include border-radius(5px);
     text-align: center;
     text-transform: capitalize;
-/*    @include transition(.5s);*/
+    /*    @include transition(.5s);*/
     background: #3CC78F;
     font-family: $font2;
     cursor: pointer;
     border: 1px solid transparent;
-    &:hover{
+
+    &:hover {
         background: #fff;
         color: #3CC78F;
         border: 1px solid #3CC78F;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &.large-width{
+
+    &.large-width {
         width: 220px;
     }
 }
@@ -71,14 +84,16 @@
     text-align: center;
     color: #fff !important;
     text-transform: capitalize;
-/*    @include transition(.5s);*/
+    /*    @include transition(.5s);*/
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background: #fff;
         color: #000 !important;
         border: 1px solid #fff;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }
@@ -94,94 +109,106 @@
     text-align: center;
     color: #fff !important;
     text-transform: capitalize;
-/*    @include transition(.5s);*/
+    /*    @include transition(.5s);*/
     cursor: pointer;
     background-position: 100% 0;
-    &:hover{
+
+    &:hover {
         background-position: 300% 0;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }
 
 .boxed-btn3-white {
-	color: #fff;
-	display: inline-block;
+    color: #fff;
+    display: inline-block;
     padding: 17px 32px;
-	font-family: $font1;
-	font-size: 16px;
+    font-family: $font1;
+    font-size: 16px;
     font-weight: 400;
     border: 0;
     border: 1px solid #fff;
     @include border-radius(5px);
-/*    width: 180px;*/
+    /*    width: 180px;*/
     text-align: center;
     color: #fff !important;
     text-transform: capitalize;
-/*    @include transition(.5s);*/
+    /*    @include transition(.5s);*/
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background: #fff;
         color: #009DFF !important;
         border: 1px solid transparent;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &__large-width{
+
+    &__large-width {
         width: 220px;
     }
 }
 
 .boxed-btn3-white-2 {
-	color: #5DB2FF !important;
-	display: inline-block;
+    color: #5DB2FF !important;
+    display: inline-block;
     padding: 9px 24px;
-	font-family: $font1;
-	font-size: 15px;
+    font-family: $font1;
+    font-size: 15px;
     font-weight: 400;
     border: 0;
     border: 1px solid #5DB2FF;
     @include border-radius(5px);
-/*    width: 180px;*/
+    /*    width: 180px;*/
     text-align: center;
     text-transform: capitalize;
     @include transition(.5s);
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         background: #5DB2FF;
         color: #fff !important;
         border: 1px solid transparent;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
-    &__large-width{
+
+    &__large-width {
         width: 220px;
     }
 }
+
 .boxed-btn2 {
-	background: transparent;
-	color: #fff;
-	display: inline-block;
-	padding: 18px 24px;
-	font-family: $font1;
-	font-size: 14px;
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 24px;
+    font-family: $font1;
+    font-size: 14px;
     font-weight: 400;
     border: 0;
     border: 1px solid #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
-    &:hover{
+
+    &:hover {
         background: #fff;
         color: #131313 !important;
     }
-    &:focus{
+
+    &:focus {
         outline: none;
     }
 }
-.line-button{
+
+.line-button {
     color: #919191;
     font-size: 16px;
     font-weight: 400;
@@ -189,7 +216,8 @@
     position: relative;
     padding-right: 5px;
     padding-bottom: 2px;
-    &::before{
+
+    &::before {
         position: absolute;
         content: "";
         background: #919191;
@@ -198,34 +226,39 @@
         bottom: 0;
         left: 0;
     }
-    &:hover{
+
+    &:hover {
         color: #009DFF;
     }
-    &:hover::before{
+
+    &:hover::before {
         background: #009DFF;
     }
 }
-.book_now{
+
+.book_now {
     display: inline-block;
     font-size: 14px;
     color: #009DFF;
     border: 1px solid #009DFF;
     text-transform: capitalize;
     padding: 10px 25px;
-    &:hover{
+
+    &:hover {
         background: #009DFF;
         color: #fff;
     }
 }
 
-.read_more{
+.read_more {
     font-size: 16px;
     color: #BCBDBF;
     text-transform: capitalize;
     position: relative;
     display: inline-block;
     padding-left: 68px;
-    &::before{
+
+    &::before {
         position: absolute;
         left: 0;
         top: 50%;
@@ -233,14 +266,16 @@
         height: 2px;
         background: #707070;
         content: '';
-/*
+        /*
         transform (translateY(-50%));
         @include transition(.3s);
 */
     }
-    &:hover{
-        color:#3CC78F ;
-        &::before{
+
+    &:hover {
+        color: #3CC78F;
+
+        &::before {
             background: #3CC78F;
         }
     }

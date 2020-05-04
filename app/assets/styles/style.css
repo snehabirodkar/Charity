@@ -8,7 +8,8 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "base/_helper";
-@import "base/_images";
+
 
 @import "modules/_btn";
 @import "modules/_showcase";
+@import "modules/_section-title";
