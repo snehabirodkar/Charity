@@ -1,0 +1,68 @@
+#our-work {
+    background: rgba(60, 199, 143, .06);
+    padding: 35px;
+
+}
+
+.about-video {
+    display: none;
+    
+
+    @mixin mediumScreen {
+        position: relative;
+        display: block;
+        border-radius: 50px;
+        overflow: hidden;
+        margin-left: 20px;
+
+    }
+
+    @mixin largeScreen {
+        position: relative;
+        display: block;
+        border-radius: 50px;
+        overflow: hidden;
+
+    }
+
+    @mixin extraLargeScreen {
+        position: relative;
+        display: block;
+        border-radius: 50px;
+        overflow: hidden;
+        margin-left: 100px;
+
+    }
+
+}
+
+.sub-title {
+    font-size: 17px;
+
+    @mixin mediumScreen {
+        font-size: 16px;
+        font-family: $font2;
+        line-height: 1.2;
+    }
+
+    @mixin largeScreen {
+        font-size: 18px;
+        font-family: $font2;
+        padding-bottom: 20px;
+    }
+
+    @mixin extraLargeScreen {
+        font-size: 18px;
+        font-family: $font2;
+        padding-bottom: 20px;
+    }
+}
+.para-1 {
+    margin-bottom: 22px;
+    margin-top: 20px;
+    font-family: $font2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88;
+    color: #5c5c5c;
+}
