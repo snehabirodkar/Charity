@@ -1,0 +1,146 @@
+.reason-area {
+    &__card-wrapper {
+        position: relative;
+
+        @mixin mediumScreen {
+            margin-bottom: 30px;
+        }
+
+        @mixin largeScreen {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__cards {
+        margin-right: 123px;
+        padding-bottom: 84px;
+
+        @mixin largeScreen {
+
+            margin-right: 84px;
+            padding-bottom: 84px;
+        }
+
+        @mixin extraLargeScreen {
+            margin-right: 84px;
+            padding-bottom: 84px;
+
+        }
+    }
+
+    &__image-container {
+        border-radius: 9px;
+        overflow: hidden;
+
+        @mixin smallScreen {
+            overflow: hidden;
+        }
+
+        @mixin largeScreen {
+            border-radius: 9px;
+            width: 100%;
+            overflow: hidden;
+
+        }
+
+        @mixin extraLargeScreen {
+            border-radius: 9px;
+            width: 100%;
+            overflow: hidden;
+
+        }
+
+    }
+
+    img {
+        border-radius: 9px;
+
+        &:hover {
+            transform: scale(1.2);
+            transition: all 0.3s;
+        }
+
+        @mixin smallScreen {
+            overflow: hidden;
+        }
+
+        @mixin largeScreen {
+            border-radius: 9px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        @mixin extraLargeScreen {
+            border-radius: 9px;
+            width: 100%;
+            overflow: hidden;
+        }
+    }
+
+    &__help-content {
+        background: #fff;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 7px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        padding: 30px;
+        left: 46px;
+        transform: translateY(-24%);
+         @mixin largeScreen {
+             padding: 47px 40px 33px 40px;
+            
+        }
+
+        @mixin extraLargeScreen {
+            padding: 47px 45px 33px 40px;
+        }
+
+        h4 {
+            font-size: 23px;
+            font-weight: 300;
+            color:#3CC78F;
+            
+        }
+
+        p {
+            font-family: $font2;
+            margin-top: 21px;
+            margin-bottom: 30px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            
+        }
+
+        &__read-more {
+            font-size: 16px;
+            color: #707070;
+            text-transform: capitalize;
+            position: relative;
+            display: inline-block;
+            padding-left: 68px;
+            
+
+            &::before {
+                position: absolute;
+                left: 0;
+                top: 50%;
+                width: 36px;
+                height: 2px;
+                background: #707070;
+                content: '';
+                transform: translateY(-50%);
+                transition:.3s;
+            }
+
+            &:hover {
+                color: #3CC78F;
+
+                &::before {
+                    background: #3CC78F;
+                }
+            }
+        }
+    }
+}
