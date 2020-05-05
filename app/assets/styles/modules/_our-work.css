@@ -1,68 +1,56 @@
-#our-work {
+.our-work {
     background: rgba(60, 199, 143, .06);
-    padding: 35px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 
-}
-
-.about-video {
-    display: none;
-    
-
-    @mixin mediumScreen {
-        position: relative;
-        display: block;
-        border-radius: 50px;
-        overflow: hidden;
-        margin-left: 20px;
-
-    }
-
-    @mixin largeScreen {
-        position: relative;
-        display: block;
-        border-radius: 50px;
-        overflow: hidden;
-
-    }
-
-    @mixin extraLargeScreen {
-        position: relative;
-        display: block;
-        border-radius: 50px;
-        overflow: hidden;
-        margin-left: 100px;
-
-    }
-
-}
-
-.sub-title {
-    font-size: 17px;
-
-    @mixin mediumScreen {
+    &__para-1 {
+        margin-bottom: 60px;
+        margin-top: 30px;
+        font-family: $font2;
         font-size: 16px;
-        font-family: $font2;
-        line-height: 1.2;
+        font-weight: 400;
+        line-height: 1.88;
+        color: #5c5c5c;
+
+
+        @mixin mediumScreen {
+            position: relative;
+            min-height: 2px;
+        }
+        @mixin extraLargeScreen {
+          line-height: 2;
+        }
     }
 
-    @mixin largeScreen {
-        font-size: 18px;
-        font-family: $font2;
-        padding-bottom: 20px;
-    }
+    &__about-video {
+         border-radius: 10px;
+ 
+        img {
+            border-radius: 10px;
+            
+        }
 
-    @mixin extraLargeScreen {
-        font-size: 18px;
-        font-family: $font2;
-        padding-bottom: 20px;
+        @mixin mediumScreen {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            width: 100%;
+             border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        @mixin largeScreen {
+            position: relative;
+            display: block;
+            overflow: hidden;
+             border-radius: 10px;
+        }
+
+        @mixin extraLargeScreen {
+            position: relative;
+            display: block;
+            overflow: hidden;
+             border-radius: 10px;
+        }
     }
-}
-.para-1 {
-    margin-bottom: 22px;
-    margin-top: 20px;
-    font-family: $font2;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.88;
-    color: #5c5c5c;
 }
