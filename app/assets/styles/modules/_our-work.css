@@ -17,17 +17,18 @@
             position: relative;
             min-height: 2px;
         }
+
         @mixin extraLargeScreen {
-          line-height: 2;
+            line-height: 2;
         }
     }
 
     &__about-video {
-         border-radius: 10px;
- 
+        border-radius: 10px;
+
         img {
             border-radius: 10px;
-            
+
         }
 
         @mixin mediumScreen {
@@ -35,7 +36,7 @@
             display: block;
             overflow: hidden;
             width: 100%;
-             border-radius: 10px;
+            border-radius: 10px;
             margin-top: 10px;
         }
 
@@ -43,14 +44,38 @@
             position: relative;
             display: block;
             overflow: hidden;
-             border-radius: 10px;
+            border-radius: 10px;
         }
 
         @mixin extraLargeScreen {
             position: relative;
             display: block;
             overflow: hidden;
-             border-radius: 10px;
+            border-radius: 10px;
+        }
+    }
+
+    &__play-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        background: #fff;
+        opacity: 0.70;
+        border-radius: 50%;
+        font-size: 26px;
+    }
+
+
+    a {
+        color: #000;
+
+        &:hover {
+            color: green;
         }
     }
 }

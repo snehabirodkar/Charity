@@ -1,0 +1,28 @@
+.number {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 1px solid #e6e6ea;
+  -webkit-transition: 0.3s border-color;
+  transition: 0.3s border-color;
+}
+
+.number i {
+  font-size: 43px;
+  color: #83ba09;
+  margin-bottom: 15px;
+}
+
+.number h3 {
+  font-size: 33px;
+}
+
+.number span {
+  color: #83ba09;
+  font-weight: 700;
+}
+
+.number:hover {
+  border-color: #83ba09;
+}

@@ -19,6 +19,7 @@
   "homepage": "https://gitlab.com/SnehaBirodkar/charity#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "font-awesome": "^4.7.0",
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1"
   },

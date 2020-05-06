@@ -66,7 +66,7 @@
 
     img {
         border-radius: 9px;
-        width: 100%;
+        width: 109%;
         &:hover {
             transform: scale(1.2);
             transition: all 0.3s;

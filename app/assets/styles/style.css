@@ -3,6 +3,8 @@
 
 @import "normalize.css";
 @import "bootstrap";
+@import "font-awesome";
+
 
 @import "base/_variables";
 @import "base/_mixins";
@@ -15,3 +17,6 @@
 @import "modules/_section-title";
 @import "modules/_reason-area";
 @import "modules/_our-work";
+@import "modules/_popular-cases";
+@import "modules/_counter";
+@import "modules/_footer";
