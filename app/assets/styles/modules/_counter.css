@@ -8,16 +8,15 @@
 .number {
   text-align: center;
   padding: 30px;
-/*  margin-bottom: 30px;*/
   border-radius: 10px;
   border: 1px solid #e6e6ea;
-  transition: 0.3s border-color;
+    background-color: white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
 }
 
 .number i {
   font-size: 43px;
-  color: #83ba09;
+  color: #3CC78F;
   margin-bottom: 15px;
 }
 
@@ -26,10 +25,14 @@
 }
 
 .number span {
-  color: #83ba09;
+  color:  #3CC78F;
   font-weight: 700;
 }
 
-.number:hover {
- background-color: #83ba09;
+.events :hover {
+  border-color: #83ba09;
+/*
+    background-color: #3CC78F; 
+    color: white;
+*/
 }
