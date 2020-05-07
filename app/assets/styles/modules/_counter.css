@@ -1,11 +1,18 @@
+.counter-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: rgba(60, 199, 143, .06);
+    padding: 80px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
 .number {
   text-align: center;
   padding: 30px;
-  margin-bottom: 30px;
+/*  margin-bottom: 30px;*/
   border-radius: 10px;
   border: 1px solid #e6e6ea;
-  -webkit-transition: 0.3s border-color;
   transition: 0.3s border-color;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
 }
 
 .number i {
@@ -24,5 +31,5 @@
 }
 
 .number:hover {
-  border-color: #83ba09;
+ background-color: #83ba09;
 }

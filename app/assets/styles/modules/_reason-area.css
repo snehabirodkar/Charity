@@ -41,7 +41,8 @@
         @mixin smallScreen {
             overflow: hidden;
         }
-         @mixin mediumScreen {
+
+        @mixin mediumScreen {
             border-radius: 9px;
             width: 100%;
             overflow: hidden;
@@ -67,6 +68,7 @@
     img {
         border-radius: 9px;
         width: 109%;
+
         &:hover {
             transform: scale(1.2);
             transition: all 0.3s;
@@ -99,26 +101,28 @@
         padding: 30px;
         left: 46px;
         margin-bottom: 30px;
-/*        transform: translateY(-24%);*/
+
+        /*        transform: translateY(-24%);*/
         @mixin mediumScreen {
-             padding: 47px 40px 33px 40px;
-            
+            padding: 47px 40px 33px 40px;
+
         }
-         @mixin largeScreen {
-             padding: 47px 40px 33px 40px;
-            
+
+        @mixin largeScreen {
+            padding: 47px 40px 33px 40px;
+
         }
 
         @mixin extraLargeScreen {
             padding: 47px 45px 33px 40px;
-            
+
         }
 
         h4 {
             font-size: 23px;
             font-weight: 300;
-            color:#3CC78F;
-            
+            color: #3CC78F;
+
         }
 
         p {
@@ -128,37 +132,9 @@
             font-weight: 400;
             font-size: 17px;
             line-height: 22px;
-            
+
         }
 
-        &__read-more {
-            font-size: 16px;
-            color: #707070;
-            text-transform: capitalize;
-            position: relative;
-            display: inline-block;
-            padding-left: 68px;
-            
 
-            &::before {
-                position: absolute;
-                left: 0;
-                top: 50%;
-                width: 36px;
-                height: 2px;
-                background: #707070;
-                content: '';
-                transform: translateY(-50%);
-                transition:.3s;
-            }
-
-            &:hover {
-                color: #3CC78F;
-
-                &::before {
-                    background: #3CC78F;
-                }
-            }
-        }
     }
 }

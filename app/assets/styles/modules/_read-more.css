@@ -1,0 +1,29 @@
+ .read-more {
+     font-size: 16px;
+     color: #707070;
+     text-transform: capitalize;
+     position: relative;
+     display: inline-block;
+     padding-left: 68px;
+
+
+     &::before {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 36px;
+         height: 2px;
+         background: #707070;
+         content: '';
+         transform: translateY(-50%);
+         transition: .3s;
+     }
+
+     &:hover {
+         color: #3CC78F;
+
+         &::before {
+             background: #3CC78F;
+         }
+     }
+ }
