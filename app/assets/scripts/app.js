@@ -3,7 +3,7 @@ if(module.hot){
     module.hot.accept();
 }
 console.log("changes!!");
-
+//alert("hello");
 $(window).on('scroll', function () {
     var scroll = $(window).scrollTop();
     if (scroll < 400) {

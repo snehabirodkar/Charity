@@ -1,125 +1,138 @@
 .causes {
-  margin-bottom: 60px;
-     border-radius: 10px;
-/*    border: solid 1px red;*/
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
-    padding: 15px;
+ margin-bottom: 60px;
+        border-radius: 10px;
+     box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        padding: 15px;
+    @mixin extraLargeScreen {
+        margin-bottom: 60px;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+        padding: 15px;
+
+    }
+    @mixin mediumScreen{
+/*        width: 300px;*/
+        margin-right: 20px;
+    }
 }
 
 .causes .causes-img {
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .causes .causes-img a:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: #3CC78F;
-  opacity: 0;
-  transition: 0.3s opacity;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #3CC78F;
+    opacity: 0;
+    transition: 0.3s opacity;
 }
 
 .causes .causes-img a:hover:after {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .causes .causes-img img {
-  width: 100%;
+    width: 100%;
 }
 
 .causes .causes-progress {
-  margin-top: 45px;
+    margin-top: 45px;
 }
 
 .causes-progress .causes-progress-bar {
-  position: relative;
-  height: 6px;
-  background-color: #e6e6ea;
-  border-radius: 10px;
-  margin-bottom: 10px;
+    position: relative;
+    height: 6px;
+    background-color: #e6e6ea;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.causes-progress .causes-progress-bar>div {
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #3CC78F;
-  bottom: 0;
-  border-radius: 10px;
+.causes-progress .causes-progress-bar > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #3CC78F;
+    bottom: 0;
+    border-radius: 10px;
 }
 
-.causes-progress .causes-progress-bar>div span {
-  position: absolute;
-  right: 5px;
-  top: -3px;
-  transform: translate(50%, -100%);
-  padding: 2px 10px;
-  background: #3CC78F;
-  color: #FFF;
-  font-weight: 400;
-  border-radius: 10px;
-  font-size: 12px;
+.causes-progress .causes-progress-bar > div span {
+    position: absolute;
+    right: 5px;
+    top: -3px;
+    transform: translate(50%, -100%);
+    padding: 2px 10px;
+    background: #3CC78F;
+    color: #FFF;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 12px;
 }
 
-.causes-progress .causes-progress-bar>div span:after {
-  content: "";
-  position: absolute;
-  background-color:#3CC78F;
-  height: 3px;
-  bottom: 0;
-  transform: translate(-50%, 100%);
-  width: 3px;
-  left: 50%;
+.causes-progress .causes-progress-bar > div span:after {
+    content: "";
+    position: absolute;
+    background-color: #3CC78F;
+    height: 3px;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+    width: 3px;
+    left: 50%;
 }
 
 .causes-progress .causes-goal {
-  float: right;
+    float: right;
 }
 
 .causes .causes-content {
-  margin-top: 15px;
+    margin-top: 15px;
     padding: 10px;
 }
 
 .causes .causes-content h3 {
-  text-transform: capitalize;
+    text-transform: capitalize;
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.causes .causes-content h3>a {
-/*  font-weight: 700;*/
-     color: #191d34;
-    
+.causes .causes-content h3 > a {
+    /*  font-weight: 700;*/
+    color: #191d34;
+
 }
-.causes .causes-content >p{
-  font-family: $font2;
+
+.causes .causes-content > p {
+    font-family: $font2;
     color: #7A7B7C;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.88;
 }
+
 .causes .causes-content .causes-donate {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .causes-details .causes-progress {
-  width: 75%;
-  float: left;
-  margin-top: 45px;
+    width: 75%;
+    float: left;
+    margin-top: 45px;
 }
 
 .causes-details .causes-donate {
-  float: right;
-  margin-top: 30px;
+    float: right;
+    margin-top: 30px;
 }
-.item img{
-  display: block;
-  width: 100%;
-  height: auto;
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
 }

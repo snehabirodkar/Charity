@@ -30,9 +30,5 @@
 }
 
 .events :hover {
-  border-color: #83ba09;
-/*
-    background-color: #3CC78F; 
-    color: white;
-*/
+  border-color: #3CC78F;
 }

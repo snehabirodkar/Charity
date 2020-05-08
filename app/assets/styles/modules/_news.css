@@ -1,29 +1,61 @@
 
 .news-area {
     background: #F3FCF8;
-    margin-right: 0;
-    padding-bottom: 80px;
 }
-.news-active{
-    padding: 20px;    
-}
+
 .news-area__single-blog {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     border-radius: 7px;
     background: #fff;
     overflow: hidden;
-    width: 540px;
-    height: 424px;
+    width: 200px;
+    height: 300px;
     margin-right: 0;
+    margin-bottom: 80px;
+    @mixin mediumScreen{
+        margin-right: 20px;
+        width: 200px;
+    height: 300px;
+    }
+    @mixin largeScreen{
+        margin-right: 20px;
+        width: 475px;
+    height: 424px;
+    }
+    @mixin extraLargeScreen{
+        margin-right: 20px;
+        width: 540px;
+    height: 424px;
+    }
 }
 
 .news-area__single-blog__thum img {
-    width: 100%;
-    width: 264px;
+/*    width: 100%;*/
+    width: 224px;
+    height: 300px;
+    @mixin mediumScreen{
+       width: 234px;
+        height: 300px;
+    }
+    @mixin largeScreen{
+       width: 264px;
+         height: 424px;
+    }
+    @mixin extraLargeScreen{
+       width: 264px;
+    }
 }
 
 .news-area__single-blog__newsinfo {
     padding: 50px 40px;
+     @mixin mediumScreen{
+        margin-right: 20px;
+    }
+    @mixin largeScreen{
+        width: 450px;
+        height: 324px;
+         height: 424px;
+    }
 }
 
 .news-area__single-blog__newsinfo span {
