@@ -24,7 +24,6 @@
            
             align-items: center;
             justify-content: flex-end;
-/*             transform: translateY(-145%);*/
            
            .socail_links{
                ul{
@@ -162,7 +161,7 @@
             color: #222222;
             margin-right: 12px;
             &:hover{
-                color:red;
+                color: #3CC78F;
             }
           }
       }  
