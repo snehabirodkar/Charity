@@ -5,6 +5,7 @@ body{
     font-family: "Yeseva One", cursive;
 	font-size: 13px;
 	font-weight: 300;
+    overflow-x: hidden!important;
 }
 a, button { transition: all 0.3s ease; }
 a:hover,
@@ -72,4 +73,20 @@ h6 {
 
 .justify-content-center{
     justify-content: center;
+}
+
+/*----------------------------*\
+	owl nav
+\*----------------------------*/
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #212226;
+    font-size: 40px;
+    background: none;
+    margin: 0;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #5c9320;
 }

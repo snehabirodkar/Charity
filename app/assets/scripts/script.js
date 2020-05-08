@@ -1,17 +1,5 @@
 
-//$('.action').owlCarousel({
-//  loop:true,
-//  margin:30,
-//// autoplay:true,
-//  navText:['<i class="ti-angle-left"></i>','<i class="ti-angle-right"></i>'],
-//  nav:false,
-//  dots:false,
-//// autoplayHoverPause: true,
-//// autoplaySpeed: 800,
-//  responsive:{
-//     
-//  }
-//});
+
 
 // $('.counter').counterUp({
 //    delay: 10,
@@ -51,7 +39,7 @@
 //			if ( $("#one-time").prop( "checked" ) ){
 //				dType = "One-Time";
 //			}
-//			if ( $("#monthly").prop( "checked" ) ){
+//			if ( $("#monalthly").prop( "checked" ) ){
 //				dType = "Monthly";
 //			}
 //
