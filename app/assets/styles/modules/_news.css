@@ -1,18 +1,11 @@
 
-
-a{
-    text-decoration: none !important;
-    color: #111;
-}
 .news-area {
     background: #F3FCF8;
     margin-right: 0;
+    padding-bottom: 80px;
 }
 .news-active{
     padding: 20px;    
-}
-.flex{
-    display: flex;
 }
 .news-area__single-blog {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
@@ -30,7 +23,7 @@ a{
 }
 
 .news-area__single-blog__newsinfo {
-    padding: 20px 40px;
+    padding: 50px 40px;
 }
 
 .news-area__single-blog__newsinfo span {
