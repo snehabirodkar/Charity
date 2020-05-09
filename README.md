@@ -2,7 +2,7 @@
 
 Website designed for NGO in India working for children's. For Every Child - Food, Healthcare, Education and a safe place to grow up. 
 
-#Getting Started
+# Getting Started
 
 This website is made with the use of webpack using post-css and Node js and BEM methodology.
 
