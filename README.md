@@ -25,6 +25,8 @@ This website is made with the use of webpack using post-css and Node js and BEM 
  
  `localhost:3000`
  
+ Also to view the Mobile-reponsiveness put your `ip-address` of desktop and port-no `3000` 
+ 
  ## Screen-shots :
  
 ![Screenshot1](images/screenshots/desktop1.png) 
