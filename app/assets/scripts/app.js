@@ -19,7 +19,18 @@ $(window).on('scroll', function () {
         $('#back-top').fadeIn(500);
     }
 });
+$(document).ready(function(){
 
+// mobile_menu
+var menu = $('ul#navigation');
+if(menu.length){
+	menu.slicknav({
+		prependTo: ".mobile_menu",
+		closedSymbol: '+',
+		openedSymbol:'-'
+	});
+};
+});
 $(document).ready(function () {
     $("#cause-owl").owlCarousel({
         items: 3,
