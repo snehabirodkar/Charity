@@ -1,4 +1,3 @@
-
 import "../styles/style.css";
 
 if (module.hot) {
@@ -9,29 +8,8 @@ console.log("changes!!");
 
 
 
-$(window).on('scroll', function () {
-    var scroll = $(window).scrollTop();
-    if (scroll < 400) {
-        $("#sticky-header").removeClass("sticky");
-        $('#back-top').fadeIn(500);
-    } else {
-        $("#sticky-header").addClass("sticky");
-        $('#back-top').fadeIn(500);
-    }
-});
-$(document).ready(function(){
 
-// mobile_menu
-var menu = $('ul#navigation');
-if(menu.length){
-	menu.slicknav({
-		prependTo: ".mobile_menu",
-		closedSymbol: '+',
-		openedSymbol:'-'
-	});
-};
-});
-$(document).ready(function () {
+$(document).ready(function() {
     $("#cause-owl").owlCarousel({
         items: 3,
         autoplay: true,
@@ -55,3 +33,46 @@ $(document).ready(function () {
         }
     });
 });
+
+$(document).ready(function() {
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
+
+ const nav = document.querySelector('.nav-list-mobile');
+ const ham = document.querySelector('.hamburger-menu');
+ ham.addEventListener('click',function(){
+     console.log("clicked");
+     nav.classList.toggle('active');
+ });
+
+const navbar = document.getElementById("navbar");
+document.addEventListener('scroll',function(){
+   if(scrollY > '100'){
+       console.log("above 100");
+       navbar.style.background = "rgba(60, 199, 143, 0.95)";
+   }
+    else{
+        navbar.style.background = "transparent";
+    }
+});
+
+
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+

@@ -8,15 +8,15 @@
     <title>Charifit</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js">
-
     <!--
     <link rel="stylesheet" href="assets/plugins/css/owl.carousel.css">
     <link rel="stylesheet" href="assets/plugins/css/owl.theme.default.css">
     <link rel="stylesheet" href="assets/plugins/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/plugins/css/magnific-popup.css">
 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/regular.min.js">
+
+    <link rel="stylesheet" href="./assets/plugins/css/responsive-tabs/responsive-tabs.min.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="./assets/plugins/css/font-awesome/css/font-awesome.min.css">
 
@@ -37,798 +37,710 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-area ">
-            <div class="header-top_area">
-                <div class="container-fluid">
+    <section id="navbar">
+        <div class="hamburger-menu"> <i class="fa fa-bars fa-2x"></i></div>
+        <div class="navbar-wrapper">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="" class="logo-img">
+            </div>
+            <nav id="navigation-bar">
+                <ul class="nav-list">
+                    <li class="nav-items"><a href="" class="nav-items-links">Home</a></li>
+                    <li class="nav-items"><a href="" class="nav-items-links">About</a></li>
+                    <li class="nav-items"><a href="" class="nav-items-links">Blog</a></li>
+                    <li class="nav-items"><a href="" class="nav-items-links">Pages</a></li>
+                    <li class="nav-items"><a href="" class="nav-items-links">Contact</a></li>
+                    <div class="btn-container">
+                        <a href="" class="btn boxed-btn3-menu">Donate Now</a>
+                    </div>
+                </ul>
+            </nav>
+            <ul class="nav-list-mobile">
+                <li class="nav-items-mobile"><a href="" class="nav-items-links">Home</a></li>
+                <li class="nav-items-mobile"><a href="" class="nav-items-links">Blog</a></li>
+                <li class="nav-items-mobile"><a href="" class="nav-items-links">Pages</a></li>
+                <li class="nav-items-mobile"><a href="" class="nav-items-links">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <!--END OF NAVIGATION SECTION-->
+    <!--   Showcase Section -->
+    <section id="home">
+        <div class="slider-area">
+            <div class="slider-area__single-slider flex align-items-center slider_bg_1 overlay-green">
+                <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 col-md-12 col-lg-8">
-                            <div class="short_contact_list">
-                                <ul>
-                                    <li><a href="#"> <i class="fa fa-phone"></i> +1 (454) 556-5656</a></li>
-                                    <li><a href="#"> <i class="fa fa-envelope"></i>Yourmail@gmail.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-md-6 col-lg-4">
-                            <div class="social_media_links d-none d-lg-block">
-                                <a href="#">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa fa-pinterest-p"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa fa-linkedin"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
+                        <div class="col-lg-8">
+                            <div class="slider-area__slider-text">
+                                <span>Get Started Today</span>
+                                <h3>
+                                    Help The Children When They Need
+                                </h3>
+                                <p>With so much to consume and such little time, coming up with relevant title ideas is essential</p>
+                                <a href="About.html" class="boxed-btn3">Learn More
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-xl-3 col-lg-3">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo.png" alt="">
-                                </a>
-                            </div>
+        </div>
+    </section>
+    <!--  End Showcase Section -->
+    <!-- Reason of help -->
+    <section class="help">
+        <div class="reason-area pt-120 pb-120">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center mb-55">
+                            <h3>
+                                <span>Reason of Helping</span></h3>
                         </div>
-                        <div class="col-xl-9 col-lg-9">
-                            <div class="main-menu flex">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a href="index.html">home</a></li>
-                                        <li><a href="About.html">About</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                                <li><a href="Cause.html">Cause</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                                <div class="Appointment flex">
-                                    <div class="book_btn d-none d-lg-block">
-                                        <a data-scroll-nav='1' href="#">Make a Donate</a>
-                                    </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- Reason area 1  -->
+                    <div class="col-lg-4 col-md-7">
+                        <div class="reason-area__card-wrapper">
+                            <div class="reason-area__cards">
+                                <div class="reason-area__image-container">
+                                    <img src="assets/images/help/1.png" alt="">
                                 </div>
                             </div>
+                            <div class="reason-area__help-content">
+                                <h4>Collecting Fund</h4>
+                                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
                         </div>
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                    <!-- Reason area 2  -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="reason-area__card-wrapper">
+                            <div class="reason-area__cards">
+                                <div class="reason-area__image-container">
+                                    <img src="assets/images/help/2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="reason-area__help-content">
+                                <h4>Blood Camp</h4>
+                                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Reason area 3  -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="reason-area__card-wrapper">
+                            <div class="reason-area__cards">
+                                <div class="reason-area__image-container">
+                                    <img src="assets/images/help/3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="reason-area__help-content">
+                                <h4>Friendly Volunteer</h4>
+                                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <!--   Showcase Section -->
-    <div class="slider-area">
-        <div class="slider-area__single-slider flex align-items-center slider_bg_1 overlay-green">
+    </section>
+    <!-- End Reason of help -->
+    <!-- Our Work -->
+    <section class="work">
+        <div class="our-work m-b-30">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <div class="slider-area__slider-text">
-                            <span>Get Started Today</span>
-                            <h3>
-                                Help The Children When They Need
+                    <div class="col-md-7">
+                        <div class="section-title">
+                            <h3> <span>Watch Our Latest </span> Activities
                             </h3>
-                            <p>With so much to consume and such little time, coming up
-                                with relevant title ideas is essential</p>
-                            <a href="About.html" class="boxed-btn3">Learn More
-                            </a>
                         </div>
+                        <p class="our-work__para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" data-scroll-nav='1' class="boxed-btn4 m-b-20">Donate Now</a>
+
+                    </div>
+                    <div class="col-md-offset-1 col-md-5">
+                        <a href="#" class="our-work__about-video">
+                            <span class="our-work__play-icon">
+                                <i class="fa fa-play "></i>
+                            </span>
+                            <img src="assets/images/banner/about.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!--  End Showcase Section -->
-
-    <!-- Reason of help -->
-    <div class="reason-area pt-120 pb-120">
-        <div class="container">
+    </section>
+    <!-- End Our Work -->
+    <!-- CAUSESS -->
+    <section class="causes">
+        <div class="section">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title text-center mb-55">
                         <h3>
-                            <span>Reason of Helping</span></h3>
+                            <span>Cause of Helping</span></h3>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <!-- Reason area 1  -->
-                <div class="col-lg-4 col-md-7">
-                    <div class="reason-area__card-wrapper">
-                        <div class="reason-area__cards">
-                            <div class="reason-area__image-container">
-                                <img src="assets/images/help/1.png" alt="">
+            <!-- causes1 -->
+            <div class="container align-items-center justify-content-center">
+                <div class="row">
+                    <div id="cause-owl" class="owl-carousel owl-theme">
+                        <div class="col-md-4">
+                            <div class="causes">
+                                <div class="causes-img">
+                                    <a href="single-cause.html">
+                                        <img src="assets/images/post-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="causes-progress">
+                                    <div class="causes-progress-bar">
+                                        <div style="width: 87%;">
+                                            <span>87%</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                        <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                    </div>
+                                </div>
+                                <div class="causes-content">
+                                    <h3><a href="single-cause.html">Help us to send food</a></h3>
+                                    <p>The passage is attributed to an unknown typesetter in the century who is thought</p>
+                                    <a class="read-more" href="">Read More</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="reason-area__help-content">
-                            <h4>Collecting Fund</h4>
-                            <p>Lorem ipsum, or lipsum as it is
-                                sometimes known, is dummy
-                                text used in laying out print.</p>
-                            <a href="#" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Reason area 2  -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="reason-area__card-wrapper">
-                        <div class="reason-area__cards">
-                            <div class="reason-area__image-container">
-                                <img src="assets/images/help/2.png" alt="">
+
+                        <!-- /causes -->
+
+                        <!-- causes -->
+                        <div class="col-md-4">
+                            <div class="causes">
+                                <div class="causes-img">
+                                    <a href="single-cause.html">
+                                        <img src="assets/images/post-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="causes-progress">
+                                    <div class="causes-progress-bar">
+                                        <div style="width: 53%;">
+                                            <span>53%</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                        <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                    </div>
+                                </div>
+                                <div class="causes-content">
+                                    <h3><a href="single-cause.html">Clothes for everyone</a></h3>
+                                    <p>The passage is attributed to an unknown typesetter in the century who is thought</p>
+                                    <a class="read-more" href="">Read More</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="reason-area__help-content">
-                            <h4>Blood Camp</h4>
-                            <p>Lorem ipsum, or lipsum as it is
-                                sometimes known, is dummy
-                                text used in laying out print.</p>
-                            <a href="#" class="read-more">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Reason area 3  -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="reason-area__card-wrapper">
-                        <div class="reason-area__cards">
-                            <div class="reason-area__image-container">
-                                <img src="assets/images/help/3.png" alt="">
+                        <!-- /causes -->
+
+                        <!-- causes -->
+                        <div class="col-md-4">
+                            <div class="causes">
+                                <div class="causes-img">
+                                    <a href="single-cause.html">
+                                        <img src="assets/images/post-3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="causes-progress">
+                                    <div class="causes-progress-bar">
+                                        <div style="width: 72%;">
+                                            <span>72%</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                        <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                    </div>
+                                </div>
+                                <div class="causes-content">
+                                    <h3><a href="single-cause.html">water for all children</a></h3>
+                                    <p>The passage is attributed to an unknown typesetter in the century who is thought</p>
+                                    <a class="read-more" href="">Read More</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="reason-area__help-content">
-                            <h4>Friendly Volunteer</h4>
-                            <p>Lorem ipsum, or lipsum as it is
-                                sometimes known, is dummy
-                                text used in laying out print.</p>
-                            <a href="#" class="read-more">Read More</a>
+                        <!-- /causes -->
+
+                        <!-- causes -->
+                        <div class="col-md-4">
+                            <div class="causes">
+                                <div class="causes-img">
+                                    <a href="single-cause.html">
+                                        <img src="assets/images/post-4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="causes-progress">
+                                    <div class="causes-progress-bar">
+                                        <div style="width: 64%;">
+                                            <span>64%</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                        <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                    </div>
+                                </div>
+                                <div class="causes-content">
+                                    <h3><a href="single-cause.html">Help us to send food</a></h3>
+                                    <p>The passage is attributed to an unknown typesetter in the century who is thought</p>
+                                    <a class="read-more" href="">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /causes -->
+
+                        <!-- causes -->
+                        <div class="col-md-4">
+                            <div class="causes">
+                                <div class="causes-img">
+                                    <a href="single-cause.html">
+                                        <img src="assets/images/post-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="causes-progress">
+                                    <div class="causes-progress-bar">
+                                        <div style="width: 72%;">
+                                            <span>72%</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                        <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                    </div>
+                                </div>
+                                <div class="causes-content">
+                                    <h3><a href="single-cause.html">Clother for everyone</a></h3>
+                                    <p>The passage is attributed to an unknown typesetter in the century who is thought</p>
+                                    <a class="read-more" href="">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /causes -->
+
+                        <!-- causes -->
+                        <div class="col-md-4">
+                            <div class="causes">
+                                <div class="causes-img">
+                                    <a href="single-cause.html">
+                                        <img src="assets/images/post-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="causes-progress">
+                                    <div class="causes-progress-bar">
+                                        <div style="width: 53%;">
+                                            <span>53%</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="causes-raised">Raised: <strong>52.000$</strong></span>
+                                        <span class="causes-goal">Goal: <strong>90.000$</strong></span>
+                                    </div>
+                                </div>
+                                <div class="causes-content">
+                                    <h3><a href="single-cause.html">water for children</a></h3>
+                                    <p>The passage is attributed to an unknown typesetter in the century who is thought</p>
+                                    <a class="read-more" href="">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End Reason of help -->
-
-    <!-- Our Work -->
-    <div class="our-work m-b-30">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <div class="section-title">
-                        <h3> <span>Watch Our Latest </span>
-                            Activities</h3>
-                    </div>
-                    <p class="our-work__para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" data-scroll-nav='1' class="boxed-btn4 m-b-20">Donate Now</a>
-
-                </div>
-                <div class="col-md-offset-1 col-md-5">
-                    <a href="#" class="our-work__about-video">
-                        <span class="our-work__play-icon">
-                            <i class="fa fa-play "></i>
-                        </span>
-                        <img src="assets/images/banner/about.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Our Work -->
-
-    <!-- CAUSESS -->
-    <div id="causes" class="section">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title text-center mb-55">
-                    <h3>
-                        <span>Cause of Helping</span></h3>
-                </div>
-            </div>
-        </div>
-        <!-- causes1 -->
-        <div class="container align-items-center justify-content-center">
-            <div class="row">
-                <div id="cause-owl" class="owl-carousel owl-theme">
-                    <div class="col-md-4">
-                        <div class="causes">
-                            <div class="causes-img">
-                                <a href="single-cause.html">
-                                    <img src="assets/images/post-1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="causes-progress">
-                                <div class="causes-progress-bar">
-                                    <div style="width: 87%;">
-                                        <span>87%</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                                </div>
-                            </div>
-                            <div class="causes-content">
-                                <h3><a href="single-cause.html">Help us to send food</a></h3>
-                                <p>The passage is attributed to an
-                                    unknown typesetter in the century
-                                    who is thought</p>
-                                <a class="read-more" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- /causes -->
-
-                    <!-- causes -->
-                    <div class="col-md-4">
-                        <div class="causes">
-                            <div class="causes-img">
-                                <a href="single-cause.html">
-                                    <img src="assets/images/post-2.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="causes-progress">
-                                <div class="causes-progress-bar">
-                                    <div style="width: 53%;">
-                                        <span>53%</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                                </div>
-                            </div>
-                            <div class="causes-content">
-                                <h3><a href="single-cause.html">Clothes for everyone</a></h3>
-                                <p>The passage is attributed to an
-                                    unknown typesetter in the century
-                                    who is thought</p>
-                                <a class="read-more" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /causes -->
-
-                    <!-- causes -->
-                    <div class="col-md-4">
-                        <div class="causes">
-                            <div class="causes-img">
-                                <a href="single-cause.html">
-                                    <img src="assets/images/post-3.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="causes-progress">
-                                <div class="causes-progress-bar">
-                                    <div style="width: 72%;">
-                                        <span>72%</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                                </div>
-                            </div>
-                            <div class="causes-content">
-                                <h3><a href="single-cause.html">water for all children</a></h3>
-                                <p>The passage is attributed to an
-                                    unknown typesetter in the century
-                                    who is thought</p>
-                                <a class="read-more" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /causes -->
-
-                    <!-- causes -->
-                    <div class="col-md-4">
-                        <div class="causes">
-                            <div class="causes-img">
-                                <a href="single-cause.html">
-                                    <img src="assets/images/post-4.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="causes-progress">
-                                <div class="causes-progress-bar">
-                                    <div style="width: 64%;">
-                                        <span>64%</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                                </div>
-                            </div>
-                            <div class="causes-content">
-                                <h3><a href="single-cause.html">Help us to send food</a></h3>
-                                <p>The passage is attributed to an
-                                    unknown typesetter in the century
-                                    who is thought</p>
-                                <a class="read-more" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /causes -->
-
-                    <!-- causes -->
-                    <div class="col-md-4">
-                        <div class="causes">
-                            <div class="causes-img">
-                                <a href="single-cause.html">
-                                    <img src="assets/images/post-5.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="causes-progress">
-                                <div class="causes-progress-bar">
-                                    <div style="width: 72%;">
-                                        <span>72%</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                                </div>
-                            </div>
-                            <div class="causes-content">
-                                <h3><a href="single-cause.html">Clother for everyone</a></h3>
-                                <p>The passage is attributed to an
-                                    unknown typesetter in the century
-                                    who is thought</p>
-                                <a class="read-more" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /causes -->
-
-                    <!-- causes -->
-                    <div class="col-md-4">
-                        <div class="causes">
-                            <div class="causes-img">
-                                <a href="single-cause.html">
-                                    <img src="assets/images/post-6.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="causes-progress">
-                                <div class="causes-progress-bar">
-                                    <div style="width: 53%;">
-                                        <span>53%</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <span class="causes-raised">Raised: <strong>52.000$</strong></span>
-                                    <span class="causes-goal">Goal: <strong>90.000$</strong></span>
-                                </div>
-                            </div>
-                            <div class="causes-content">
-                                <h3><a href="single-cause.html">water for children</a></h3>
-                                <p>The passage is attributed to an
-                                    unknown typesetter in the century
-                                    who is thought</p>
-                                <a class="read-more" href="">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /causes -->
-            </div>
-
-            <!-- /row -->
-        </div>
-        <!-- /container -->
-    </div>
+    </section>
     <!-- /CAUSESS -->
+    <section id="stats">
+        <div class="stats-cover">
+            <div class="content-box">
+                <div class="container">
+                    <div class="row wow animated fadeInUp " data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-heartbeat fa-5x"></i>
+                                <h2><span class="counter">50</span>+</h2>
+                                <p>Finished Events</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-star-o fa-5x"></i>
+                                <h2><span class="counter">60</span>+</h2>
+                                <p>Finished Events</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-money fa-5x"></i>
+                                <h2><span class="counter">55</span>+</h2>
+                                <p>Finished Events</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="stats-item">
+                                <i class="fa fa-handshake-o fa-5x"></i>
+                                <h2><span class="counter">65</span>+</h2>
+                                <p>Finished Events</p>
+                            </div>
+                        </div>
 
-    <div id="numbers" class="counter-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <x class="events">
-                        <div class="number">
-                            <i class="fa fa-heartbeat"></i>
-                            <h3 class="counter">20</h3>
-                            <span>Children Saved</span>
-                        </div>
-                    </x>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="events">
-                        <div class="number">
-                            <i class="fa fa-heartbeat"></i>
-                            <h3 class="counter">20</h3>
-                            <span>Children Saved</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="events">
-                        <div class="number">
-                            <i class="fa fa-money"></i>
-                            <h3 class="counter">20</h3>
-                            <span>Children Saved</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6">
-                    <div class="events">
-                        <div class="number">
-                            <i class="fa fa-handshake-o"></i>
-                            <h3 class="counter">20</h3>
-                            <span>Children Saved</span>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
     <!-- our_volunteer_area_start  -->
-    <div class="our_volunteer_area section_padding">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center mb-55">
-                        <h3><span>Our Volunteer</span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_volenteer">
-                        <div class="volenteer_thumb">
-                            <img src="assets/images/volenteer/1.png" alt="">
-                        </div>
-                        <div class="voolenteer_info d-flex align-items-end">
-                            <div class="social_links">
-                                <ul>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-pinterest"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="info_inner">
-                                <h4>Emran Ahmed</h4>
-                                <p>Volunteer</p>
-                            </div>
+    <section class="volunterr">
+        <div class="our_volunteer_area section_padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center mb-55">
+                            <h3><span>Our Volunteer</span></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_volenteer">
-                        <div class="volenteer_thumb">
-                            <img src="assets/images/volenteer/2.png" alt="">
-                        </div>
-                        <div class="voolenteer_info d-flex align-items-end">
-                            <div class="social_links">
-                                <ul>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-pinterest"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                    </li>
-                                </ul>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 m-t-30">
+                        <div class="single_volenteer">
+                            <div class="volenteer_thumb">
+                                <img src="assets/images/volenteer/1.png" alt="">
                             </div>
-                            <div class="info_inner">
-                                <h4>Emran Ahmed</h4>
-                                <p>Volunteer</p>
+                            <div class="voolenteer_info d-flex align-items-end">
+                                <div class="social_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info_inner">
+                                    <h4>Emran Ahmed</h4>
+                                    <p>Volunteer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_volenteer">
-                        <div class="volenteer_thumb">
-                            <img src="assets/images/volenteer/3.png" alt="">
-                        </div>
-                        <div class="voolenteer_info d-flex align-items-end">
-                            <div class="social_links">
-                                <ul>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-pinterest"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                    </li>
-                                </ul>
+                    <div class="col-lg-4 col-md-6 m-t-30">
+                        <div class="single_volenteer">
+                            <div class="volenteer_thumb">
+                                <img src="assets/images/volenteer/2.png" alt="">
                             </div>
-                            <div class="info_inner">
-                                <h4>Sabbir Ahmed</h4>
-                                <p>Volunteer</p>
+                            <div class="voolenteer_info d-flex align-items-end">
+                                <div class="social_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info_inner">
+                                    <h4>Emran Ahmed</h4>
+                                    <p>Volunteer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 m-t-30">
+                        <div class="single_volenteer">
+                            <div class="volenteer_thumb">
+                                <img src="assets/images/volenteer/3.png" alt="">
+                            </div>
+                            <div class="voolenteer_info d-flex align-items-end">
+                                <div class="social_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-pinterest"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="info_inner">
+                                    <h4>Sabbir Ahmed</h4>
+                                    <p>Volunteer</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- our_volunteer_area_end  -->
-
-
-    <div class="news-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section-title text-center mb-55">
-                        <h3><span>News &amp; Updates</span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 news-active">
-                    <div class="">
-                        <div class="news-area__single-blog">
-                            <div class="news-area__single-blog__thum">
-                                <img src="assets/images/news/1.png" alt="" height="430" width="400">
-                            </div>
-                            <div class="news-area__single-blog__newsinfo">
-                                <span>July 18, 2019</span>
-                                <a href="">
-                                    <h3>Pure Water Is More
-                                        Essential</h3>
-                                </a>
-                                <p>The passage experienced a
-                                    surge in popularity during the
-                                    1960s when used it on their
-                                    sheets, and again.</p>
-                                <a class="read-more" href="single-blog.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="">
-                        <div class="news-area__single-blog flex">
-                            <div class="news-area__single-blog__thum">
-                                <img src="assets/images/news/2.png" alt="" height="430" width="400">
-                            </div>
-                            <div class="news-area__single-blog__newsinfo">
-                                <span>July 18, 2019</span>
-                                <a href="">
-                                    <h3>Pure Water Is More
-                                        Essential</h3>
-                                </a>
-                                <p>The passage experienced a
-                                    surge in popularity during the
-                                    1960s when used it on their
-                                    sheets, and again.</p>
-                                <a class="read-more" href="single-blog.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- news__area_end  -->
-
-    <!--Donation-->
-    <div class="donation-container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="section-title text-center mb-55">
-                    <h3>
-                        <span>Make a Donation</span></h3>
-                </div>
-            </div>
-        </div>
-        <div class="donation-box">
-            <div class="title">Donation Information</div>
-
-            <div class="fields">
-                <input type="text" id="firstName" placeholder="First Name">
-                <input type="text" id="lastName" placeholder="Last Name">
-                <input type="text" id="email" placeholder="Email">
-            </div>
-
-            <div class="amount">
-                <div class="button">$30</div>
-                <div class="button">$50</div>
-                <div class="button">$100</div>
-                <div class="button">$<input type="text" class="set-amount" placeholder=""> </div>
-            </div>
-
-            <div class="switch">
-                <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
-                <label for="one-time" class="switch-label switch-label-off">One-Time</label>
-                <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
-                <label for="monthly" class="switch-label switch-label-on">Monthly</label>
-                <span class="switch-selection"></span>
-            </div>
-
-            <div class="checkboxes">
-                <input type="checkbox" id="receipt" class="checkbox" />
-                <label for="receipt">Email Me A Receipt</label>
-                <br />
-                <input type="checkbox" id="anon" class="checkbox" />
-                <label for="anon">Give Anonymously</label>
-                <br />
-                <input type="checkbox" id="list" class="checkbox" />
-                <label for="list">Add Me To Email List</label>
-            </div>
-
-            <div class="confirm">
-
-            </div>
-
-            <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
-        </div>
-
-    </div>
-    <!--Donation-->
-
-
-    <!-- footer_start  -->
-    <footer class="footer">
-        <div class="footer_top">
+    <section class="news">
+        <div class="news-area">
             <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="section-title text-center mb-55">
+                            <h3><span>News &amp; Updates</span></h3>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-4 ">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="assets/images/footer_logo.png" alt="">
-                                </a>
+                    <div class="col-lg-12 news-active">
+                        <div class="">
+                            <div class="news-area__single-blog">
+                                <div class="news-area__single-blog__thum">
+                                    <img src="assets/images/news/1.png" alt="" height="430" width="400">
+                                </div>
+                                <div class="news-area__single-blog__newsinfo">
+                                    <span>July 18, 2019</span>
+                                    <a href="">
+                                        <h3>Pure Water Is More Essential
+                                        </h3>
+                                    </a>
+                                    <p>The passage experienced a surge in popularity during the 1960s when used it on their sheets, and again.</p>
+                                    <a class="read-more" href="single-blog.html">Read More</a>
+                                </div>
                             </div>
-                            <p class="address_text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore.
-                            </p>
-                            <div class="socail_links">
-                                <ul>
+                        </div>
+
+                        <div class="">
+                            <div class="news-area__single-blog flex">
+                                <div class="news-area__single-blog__thum">
+                                    <img src="assets/images/news/2.png" alt="" height="430" width="400">
+                                </div>
+                                <div class="news-area__single-blog__newsinfo">
+                                    <span>July 18, 2019</span>
+                                    <a href="">
+                                        <h3>Pure Water Is More Essential
+                                        </h3>
+                                    </a>
+                                    <p>The passage experienced a surge in popularity during the 1960s when used it on their sheets, and again.</p>
+                                    <a class="read-more" href="single-blog.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news__area_end  -->
+    <!--Donation-->
+    <section class="donation">
+        <div class="justify-content-center">
+            <div class="section-title text-center mb-55">
+                <h3><span>Reason of Helping</span></h3>
+            </div>
+        </div>
+        <div class="donation-container">
+
+            <div class="donation-box">
+                <div class="title">Donation Information</div>
+
+                <div class="fields">
+                    <input type="text" id="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" placeholder="Last Name">
+                    <input type="text" id="email" placeholder="Email">
+                </div>
+
+                <div class="amount">
+                    <div class="button">$30</div>
+                    <div class="button">$50</div>
+                    <div class="button">$100</div>
+                    <div class="button">$<input type="text" class="set-amount" placeholder=""> </div>
+                </div>
+
+                <div class="switch">
+                    <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                    <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                    <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                    <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                    <span class="switch-selection"></span>
+                </div>
+
+                <div class="checkboxes">
+                    <input type="checkbox" id="receipt" class="checkbox" />
+                    <label for="receipt">Email Me A Receipt</label>
+                    <br />
+                    <input type="checkbox" id="anon" class="checkbox" />
+                    <label for="anon">Give Anonymously</label>
+                    <br />
+                    <input type="checkbox" id="list" class="checkbox" />
+                    <label for="list">Add Me To Email List</label>
+                </div>
+
+                <div class="confirm">
+
+                </div>
+
+                <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+            </div>
+
+        </div>
+    </section>
+    <!--Donation-->
+    <!-- footer_start  -->
+    <section class="footer">
+        <footer class="footer">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-6 col-lg-4 ">
+                            <div class="footer_widget">
+                                <div class="footer_logo">
+                                    <a href="#">
+                                        <img src="assets/images/footer_logo.png" alt="">
+                                    </a>
+                                </div>
+                                <p class="address_text">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore.
+                                </p>
+                                <div class="social_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-dribbble"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-md-6 col-lg-2">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                    Services
+                                </h3>
+                                <ul class="links">
+                                    <li><a href="#">Donate</a></li>
+                                    <li><a href="#">Sponsor</a></li>
+                                    <li><a href="#">Fundraise</a></li>
+                                    <li><a href="#">Volunteer</a></li>
+                                    <li><a href="#">Partner</a></li>
+                                    <li><a href="#">Jobs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                    Contacts
+                                </h3>
+                                <div class="contacts">
+                                    <p>+91 022 2865 25 23 <br> info@samplecharity.com <br> Mumbai,India
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                            <div class="footer_widget">
+                                <h3 class="footer_title">
+                                    Top News
+                                </h3>
+                                <ul class="news_links">
                                     <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
+                                        <div class="thumb">
+                                            <a href="#">
+                                                <img src="assets/images/news/news_1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                <h4>School for Dharavi Childrens
+                                                </h4>
+                                            </a>
+                                            <span>May 12, 2020</span>
+                                        </div>
                                     </li>
                                     <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-dribbble"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
+                                        <div class="thumb">
+                                            <a href="#">
+                                                <img src="assets/images/news/news_2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="info">
+                                            <a href="#">
+                                                <h4>School for Mahim Childrens
+                                                </h4>
+                                            </a>
+                                            <span>Jun 18, 2020</span>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right_text">
+                <div class="container">
+                    <div class="row">
+                        <div class="bordered_1px "></div>
+                        <div class="col-xl-12">
+                            <p class="copy_right text-center">
+                                <p>
+                                    Copyright &copy;
+                                    <script>
+                                        document.write(new Date().getFullYear());
 
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Services
-                            </h3>
-                            <ul class="links">
-                                <li><a href="#">Donate</a></li>
-                                <li><a href="#">Sponsor</a></li>
-                                <li><a href="#">Fundraise</a></li>
-                                <li><a href="#">Volunteer</a></li>
-                                <li><a href="#">Partner</a></li>
-                                <li><a href="#">Jobs</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Contacts
-                            </h3>
-                            <div class="contacts">
-                                <p>+2(305) 587-3407 <br>
-                                    info@loveuscharity.com <br>
-                                    Flat 20, Reynolds Neck, North
-                                    Helenaville, FV77 8WS
+                                    </script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Sneha</a>
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Top News
-                            </h3>
-                            <ul class="news_links">
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="assets/images/news/news_1.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">
-                                            <h4>School for African
-                                                Childrens</h4>
-                                        </a>
-                                        <span>Jun 12, 2019</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="assets/images/news/news_2.png" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">
-                                            <h4>School for African
-                                                Childrens</h4>
-                                        </a>
-                                        <span>Jun 12, 2019</span>
-                                    </div>
-                                </li>
-                            </ul>
+                                  <a href="#" class="scrollup"><i class="fa fa-angle-up fa-5x"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="row">
-                    <div class="bordered_1px "></div>
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <p>
-                                Copyright &copy;<script>
-                                    document.write(new Date().getFullYear());
-
-                                </script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Sneha</a>
-                            </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-
+        </footer>
+    </section>
 
     <script src="./assets/plugins/js/jquery.counterup.min.js"></script>
     <!-- JQUERY-->
@@ -843,6 +755,8 @@
     <!-- Magnific Popup -->
     <script src="./assets/plugins/js/magnific-popup/jquery.magnific-popup.min.js"></script>
 
+    <script src="./assets/plugins/js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+
     <!-- Counter -->
     <script src="./assets/plugins/js/counter/jquery.counterup.min.js"></script>
 
@@ -854,8 +768,7 @@
 
     <!-- CUSTOM JS -->
     <script src="./assets/scripts/script.js"></script>
-    <script src="./assets/plugins/js/jquery.scrollUp.min.js"></script>
-    <script src="./assets/plugins/js/scrollIt.js"></script>
+
     <script src="app.bundled.js"></script>
 
 </body>

@@ -5,7 +5,7 @@ body {
     font-family: "Yeseva One", cursive;
     font-size: 13px;
     font-weight: 300;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 }
 
 a,
@@ -70,7 +70,6 @@ h6 {
 
 .flex {
     display: flex;
-
 }
 
 .align-items-center {
@@ -83,24 +82,30 @@ h6 {
 
 ::-webkit-scrollbar {
     width: 18px;
-    
 }
 
+
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: #555;
 }
 
+
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background: #3CC78F;
 }
 
+
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #3CC78F;
 }
+
 
 /*----------------------------*\
 	owl nav
@@ -115,10 +120,27 @@ h6 {
 
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: none;
-    color: #5c9320;
+    color: #3CC78F;
 }
 
 ::selection {
     color: white;
     background: black;
+}
+.scrollup {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    display: none;
+    text-align: center;
+    border-radius: 7px;
+    background-color: #3CC78F;
+    
+    i{
+        transform: translateY(-5px);
+        font-size: 50px;
+        color: white;
+    }
 }

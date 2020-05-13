@@ -256,3 +256,15 @@
     width: 100%;
 }
 
+.icon-facebook:hover{
+    color:#0000ff;
+}
+.icon-twitter:hover{
+    color:#5EAADE;
+}
+.icon-google-plus:hover{
+    color:#B93425;
+}
+.icon-youtube:hover{
+    color:#EE1C1B;
+}

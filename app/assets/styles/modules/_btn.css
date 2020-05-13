@@ -1,8 +1,8 @@
 .boxed-btn3 {
     color: #222222;
     display: inline-block;
-    padding: 10px 18px;
-    font-size: 16px;
+    padding: 10px 10px;
+    font-size: 15px;
     font-weight: 600;
     border: 0;
     border-radius: 5px;
@@ -23,14 +23,45 @@
     }
 
     @mixin largeScreen {
-        padding: 13px 44px;
+        padding: 13px 40px;
     }
 
     @mixin extraLargeScreen {
-        padding: 13px 44px;
+        padding: 13px 30px;
     }
 }
+.boxed-btn3-menu {
+    color: #222222;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background: #fff;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
 
+    &:hover {
+        background: #3CC78F;
+        color: #fff;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    @mixin largeScreen {
+        padding: 13px 20px;
+    }
+
+    @mixin extraLargeScreen {
+        padding: 13px 20px;
+    }
+}
 .button-area {
     &__border-top-generic {
         padding: 70px 15px;

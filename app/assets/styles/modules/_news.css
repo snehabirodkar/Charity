@@ -17,13 +17,14 @@
 }
 
 .news-area__single-blog {
+    margin-top: 20px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     border-radius: 7px;
     background: #fff;
     overflow: hidden;
     height: 300px;
-    margin-right: 0;
-    margin-bottom: 80px;
+    margin-right: 10px;
+    margin-bottom: 70px;
     display: flex;
 
     
@@ -31,7 +32,7 @@
 
 .news-area__single-blog__thum img {
     /*    width: 100%;*/
-    width: 224px;
+    width: 200px;
     height: 300px;
 
 }
